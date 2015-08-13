@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	font-size: 1em;
+}
+
+.site {
+	/*width: 80%;*/
+	margin: 0 auto;
+}
+
+.mainHeader {
+	height: 70px;
+	background-color: #C84742;
+
+}
+.mainHeader .content {
+	width: 930px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mainHeader .content .logo {
+	display: inline-block;
+}
+.mainHeader .content .menu{
+	display: inline-block;
+	position: absolute;
+	top: 26px;
+	right: 20px;
+
+}
+
+.mainHeader .content .menu .menuList {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.mainHeader .content .menu .menuList .menuItem {
+	display: inline-block;
+}
+
+.mainHeader .content .menu .menuList .menuItem:not(:last-child) {
+	display: inline-block;
+	margin-right: 20px;
+}
+/*.mainHeader .content .menu .menuList .menuItem:last-child {
+	margin-right: 0px;
+}*/
+
+.mainHeader .content .menu .menuList .menuItem .link {
+	text-decoration: none;
+	color: white;
+	font-family: 'Helvetica';
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+.banner {
+	border: 2px solid blue;	
+	overflow: auto;
+	background-image: url(http://exclusiveventas.cl/static/images/carouselItem4.jpg);
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	-webkit-filter:grayscale(100%); /* El prefijo marca que es propietario y no está libre todavía */
+}
+
+.banner .frases {
+	color: white;
+	list-style: none;
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.banner .sliderNavigation {
+	border: 2px solid blue;
+	text-align: center;
+}
+
+.intro .introTitulo {
+	/*font-family: Century Gothic;*/
+	font-family: Lucida Sans Unicode;
+	font-size: 2.1em;
+	text-align: center;
+}
+
+.intro p{
+	border: 2px solid blue;
+	font-family: Lucida Sans Unicode;
+	text-align: center;
+	font-size: 0.8em;
+	width: 80%;
+}
