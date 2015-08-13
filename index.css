@@ -89,9 +89,33 @@ body {
 }
 
 .intro p{
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
+	color: #A4A4A4;
 	font-family: Lucida Sans Unicode;
 	text-align: center;
 	font-size: 0.8em;
 	width: 80%;
+	position: relative;
+	/*left:10%;	*/
+	margin: 0 auto;
+}
+
+.aboutUs {
+	background-color: #E6E6E6;
+	font-family: Lucida Sans Unicode;
+}
+
+.aboutUs .auTitulo {
+	/*border: 2px solid blue;*/
+	font-size: 1.7em;
+	text-align: center;
+	overflow: auto;
+}
+
+.aboutUs .auTtext {
+	/*border: 2px solid blue;*/
+	font-size: 0.9em;
+	color: #A4A4A4;
+	text-align: center;
+	overflow: auto;
 }
