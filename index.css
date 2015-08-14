@@ -119,3 +119,24 @@ body {
 	text-align: center;
 	overflow: auto;
 }
+
+.aboutUs .boxes {
+	/*display: inline-block;*/
+	overflow: auto;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.marginRight {
+	margin-right: 6.6%;
+}
+
+.aboutUs .boxes .box {
+	/*border: 2px solid blue;*/
+	height: 270px;
+	width: 330px;
+	text-align: center;
+	float: left;
+
+}
+/* Lleva 3 mediaQuerys para las cajas */
